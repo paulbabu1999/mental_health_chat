@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background: #eef;
+    padding: 20px;
+  }
+  
+  .user-form, .input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chat-window {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin: 5px 0;
+  }
+  
+  .message.bot {
+    color: darkblue;
+  }
+  
